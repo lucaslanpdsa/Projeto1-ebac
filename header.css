@@ -1,0 +1,36 @@
+header {
+  background-color: #222222;
+  color: #AAA;
+  padding: 10px 0;
+}
+
+header img {
+  height: 30px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+
+}
+
+.container nav a {
+  text-decoration: none;
+  color: #AAA;
+}
+
+.container nav li {
+  display: inline;
+  margin-left: 12px;
+}
